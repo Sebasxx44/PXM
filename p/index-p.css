@@ -310,6 +310,7 @@ body{
     background: #0e081d;
 }
 
+
 .contenido_a_footer a{
     color: #03b620;
     font-family:Arial, Helvetica, sans-serif;
@@ -333,6 +334,16 @@ body{
 
 .footer-container .footer-sm a:hover{
     color: #ec0202;
+}
+
+
+.pelicula_video iframe{
+
+    width: 800px;
+    height: 450px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border:1px solid #ca0000;
 }
 
 
@@ -385,6 +396,17 @@ body{
         padding: 0 0 0 10px;
         cursor: pointer;
     }
+
+    .pelicula_video iframe{
+
+        width: 700px;
+        height: 400px;
+        margin-left: 130px;
+        margin-top: 50px;
+        border:1px solid #ca0000;
+    
+    }
+    
     
 }
 
@@ -421,6 +443,14 @@ body{
         cursor: pointer;
     }
 
+    .pelicula_video iframe{
+        width: 650px;
+        height: 400px;
+        margin-left: 90px;
+        margin-top: 50px;
+        border:1px solid #ca0000;
+    }
+    
 }
 
 @media screen and (max-width: 800px){
@@ -446,6 +476,15 @@ body{
         padding: 0 20px;
         gap: 30px;
     }
+
+    .pelicula_video iframe{
+        width: 600px;
+        height: 350px;
+        margin-left: 80px;
+        margin-top: 50px;
+        border:1px solid #ca0000;
+    }
+
 }
 
 @media screen and (max-width: 730px){
@@ -457,6 +496,12 @@ body{
 
     nav ul li a{
         font-size: 16px;
+    }
+
+    .pelicula_video iframe{
+        width: 550px;
+        height: 380px;
+        margin-left: 80px;
     }
 
 }
@@ -566,11 +611,24 @@ body{
         font-size: 20px;
     }
 
+    .pelicula_video iframe{
+        width: 550px;
+        height: 340px;
+        margin-left: 50px;
+    }
+
+
 }
 
 @media screen and (max-width: 660px){
     nav ul li a{
         font-size: 17px;
+    }
+
+    .pelicula_video iframe{
+        width: 550px;
+        height: 330px;
+        margin-left: 40px;
     }
 
 
@@ -599,6 +657,13 @@ body{
         padding: 0 20px;
         gap: 20px;
     }
+
+    .pelicula_video iframe{
+        width: 400px;
+        height: 240px;
+        margin-left: 80px;
+    }
+
 }
 
 @media screen and (max-width:500px){
@@ -620,6 +685,12 @@ body{
     .logo-footer img{
         width: 200px;
         padding: 20px;
+    }
+
+    .pelicula_video iframe{
+        width: 400px;
+        height: 260px;
+        margin-left: 40px;
     }
 
 }
@@ -683,6 +754,20 @@ body{
         padding: 5px;
     }
 
+    .pelicula_video iframe{
+        width: 320px;
+        height: 200px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:420px){
+    .pelicula_video iframe{
+        width: 320px;
+        height: 200px;
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -736,6 +821,12 @@ body{
     .cartaz .descripcion-peli{
 
         font-size: 14px;
+    }
+
+    .pelicula_video iframe{
+        width: 310px;
+        height: 180px;
+        margin-left: 35px;
     }
 
     
@@ -795,6 +886,12 @@ body{
 
     .pelicula-img{
         border-radius: 1px;
+    }
+
+    .pelicula_video iframe{
+        width: 280px;
+        height: 170px;
+        margin-left: 22px;
     }
 
 }
