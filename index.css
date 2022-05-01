@@ -217,6 +217,10 @@ body{
     position: relative;
 }
 
+.carousel__lista .carousel__elemento{
+    cursor: pointer;
+}
+
 .carousel__anterior,
 .carousel__siguiente{
    position: absolute;
@@ -269,17 +273,16 @@ body{
     width: 30px;
     height: 4px;
     background: white;
-    opacity: .2;
     border-radius: 0;
     margin-top: 30px;
 }
 
 .carousel__indicadores .glider-dot:hover{
-    opacity: .5;
+    background: #ca0000;
 }
 
 .carousel__indicadores .glider-dot.active{
-    opacity: 1;
+    background: #ca0000;
 }
 
 
@@ -831,10 +834,25 @@ body{
 
     .glider-slide img{
         height: 290px;
+        width: 100%;
+        margin-left: 0px;
+        padding: 5px;
     }
 
     .carousel{
-        margin: 30px 150px 20px 120px;
+        width: 82%;
+        margin: 30px 10px 10px 40px;
+        padding: 0px;
+    }
+
+    
+
+    .carousel__elemento p{
+        font-size: 13px;
+        color: #fff;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 8px;
     }
 
     .cartaz img{
@@ -873,11 +891,14 @@ body{
     }
 
     .glider-slide img{
-        height: 320px;
+        height: 240px;
+        margin-left: 0px;
+        width: 100%;
+        padding: 5px;
     }
 
     .carousel{
-        margin: 30px 86px 20px 80px;
+        margin: 20px 10px 20px 37px;
     }
 
 
@@ -963,7 +984,10 @@ body{
         font-size: 14px;
     }
 
-    
+    .carousel__anterior,
+    .carousel__siguiente{
+      display: none;
+    }
 
 }
 
@@ -993,11 +1017,14 @@ body{
     }
 
     .glider-slide img{
-        height: 320px;
+        height: 200px;
+        width: 100%;
+        padding: 5px;
     }
 
     .carousel{
-        margin: 30px 60px 20px 50px;
+        width: 90%;
+        margin: 30px 10px 10px 15px;
     }
 
     .subtitle h2{

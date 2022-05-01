@@ -104,12 +104,12 @@ window.addEventListener('load', function(){
               }
             },{
               // screens greater than >= 775px
-              breakpoint: 500,
+              breakpoint: 200,
               settings: {
                 // Set to `auto` and provide item width to adjust to viewport
                 slidesToShow: '2',
                 slidesToScroll: '1',
-                itemWidth: 90,
+                itemWidth: 60,
                 duration: 0.25
               }
             }
