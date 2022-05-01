@@ -343,7 +343,6 @@ body{
     height: 450px;
     margin-left: 250px;
     margin-top: 50px;
-    border:1px solid #ca0000;
 }
 
 
@@ -689,7 +688,7 @@ body{
 
     .pelicula_video iframe{
         width: 400px;
-        height: 260px;
+        height: 300px;
         margin-left: 40px;
     }
 
@@ -756,7 +755,7 @@ body{
 
     .pelicula_video iframe{
         width: 320px;
-        height: 200px;
+        height: 300px;
         margin-left: 50px;
     }
 
@@ -765,7 +764,7 @@ body{
 @media screen and (max-width:420px){
     .pelicula_video iframe{
         width: 320px;
-        height: 200px;
+        height: 300px;
         margin-left: 40px;
     }
 }
@@ -825,7 +824,7 @@ body{
 
     .pelicula_video iframe{
         width: 310px;
-        height: 180px;
+        height: 300px;
         margin-left: 35px;
     }
 
@@ -890,7 +889,7 @@ body{
 
     .pelicula_video iframe{
         width: 280px;
-        height: 170px;
+        height: 300px;
         margin-left: 22px;
     }
 
