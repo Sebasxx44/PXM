@@ -160,7 +160,7 @@ body{
 .nav-1{
     width: 100%;
     height: 550px;
-    background: linear-gradient(rgba(0, 0, 0,.40) 0%, rgba(0, 0, 0, .40) 100% ), url(img/rey-de-wakanda-pantera-negra_1280x720_xtrafondos.com.jpg);
+    background: linear-gradient(rgba(0, 0, 0,.40) 0%, rgba(0, 0, 0, .40) 100% ), url(img/doctor-strange-f.jpg);
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -172,14 +172,14 @@ body{
     margin-bottom: 50px;
 }
 
-.titulo-pelicula{
+.contenido-slider .titulo-pelicula{
     font-size: 40px;
-    font-family: sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
     color: white;
 }
 
-.subtitulo-pelicula{
-    font-size: 20px;
+.contenido-slider p{
+    font-size: 15px;
     color: white;
     font-family: sans-serif;
 }
@@ -436,14 +436,15 @@ body{
 }
 
  .container-2 .title-container-2{
-    font-size: 15px;
-    font-family: sans-serif;
+    font-size: 18px;
+    font-family: 'Roboto Flex', sans-serif;
     color: #fff;
     margin-top: 10px;
     width: 90%;
     padding: 0 0 0 20px;
     cursor: pointer;
     text-align: center;
+    font-weight: normal;
 }
 
 .container-2 .title-container-2:hover{
@@ -590,7 +591,7 @@ body{
     .container-2 .title-container-2{
         font-size: 16px;
         color: white;
-        font-family: 'Hubballi', cursive;
+        font-family: 'Roboto Flex', sans-serif;
         margin-top: 10px;
         width: 90%;
         padding: 0 0 0 10px;
@@ -772,8 +773,8 @@ body{
     }
 
     .container-2 .title-container-2{
-        font-family: sans-serif;
-        font-size: 12px;
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 15px;
        
     }
 
@@ -848,8 +849,6 @@ body{
 
     .carousel__elemento p{
         font-size: 15px;
-        color: #fff;
-        font-family: sans-serif;
         text-align: center;
         margin-top: 8px;
         margin-right: 12px;
@@ -879,8 +878,10 @@ body{
 
     }
 
-    .titulo-pelicula{
-    font-size: 25px;
+    .contenido-slider .titulo-pelicula{
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 28px;
+        width: 90%;
     }
 
     .subtitle h2{
