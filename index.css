@@ -254,9 +254,9 @@ body{
 }
 
 .carousel__elemento p{
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Roboto Flex';
     text-align: center;
     margin-top: 6px;
 }
@@ -436,9 +436,9 @@ body{
 }
 
  .container-2 .title-container-2{
-    font-size: 13px;
-    color: white;
+    font-size: 15px;
     font-family: sans-serif;
+    color: #fff;
     margin-top: 10px;
     width: 90%;
     padding: 0 0 0 20px;
@@ -847,11 +847,12 @@ body{
     
 
     .carousel__elemento p{
-        font-size: 13px;
+        font-size: 15px;
         color: #fff;
         font-family: sans-serif;
         text-align: center;
         margin-top: 8px;
+        margin-right: 12px;
     }
 
     .cartaz img{
