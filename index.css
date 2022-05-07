@@ -25,6 +25,7 @@ nav{
     margin-top: 9px;
 }
 
+
 nav ul{
     float: right;
     margin: 0 50px;
@@ -408,7 +409,7 @@ body{
 }
 
 .subtitle h2{
-    font-size: 18px;
+    font-size: 26px;
     font-family: sans-serif;
     color: white;
 }
@@ -474,6 +475,7 @@ body{
 
  .projects__hover-1 .hover-container-2{
     font-size: 60px;
+    color:#ca0000;
 }
 
 .pelicula-container:hover .projects__hover-1{
@@ -881,7 +883,7 @@ body{
     }
 
     .subtitle h2{
-    font-size: 17px;
+    font-size: 18px;
     }
 
     .subtitle img{
