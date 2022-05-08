@@ -404,16 +404,24 @@ body{
 
 .subtitle{
     text-align:start;
-    margin: 20px ;
+    margin: 20px 10px 10px 10px ;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .subtitle h2{
     font-size: 26px;
     font-family: sans-serif;
     color: white;
+    font-weight: normal;
 }
 
+.subtitle p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(199, 5, 5);
+}
 
 
 /* PELICULAS Y SERIES*/
@@ -448,7 +456,7 @@ body{
 }
 
 .container-2 .title-container-2:hover{
-    color: #0050e6;
+    color: #b60b0b;
 }
 
 .pelicula-img{
