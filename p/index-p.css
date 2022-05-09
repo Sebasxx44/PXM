@@ -761,18 +761,10 @@ body{
 
     .pelicula_video iframe{
         width: 90%;
-        height: 260px;
+        height: 220px;
         margin-left: 20px;
     }
 
-}
-
-@media screen and (max-width:420px){
-    .pelicula_video iframe{
-        width: 90%;
-        height: 260px;
-        margin-left: 20px;
-    }
 }
 
 @media screen and (max-width: 400px){
@@ -826,12 +818,6 @@ body{
     .cartaz .descripcion-peli{
 
         font-size: 14px;
-    }
-
-    .pelicula_video iframe{
-        width: 90%;
-        height: 250px;
-        margin-left: 20px;
     }
     
 
@@ -893,8 +879,7 @@ body{
     }
 
     .pelicula_video iframe{
-        width: 90%;
-        height: 240px;
+        height: 200px;
         margin-left: 15px;
     }
 
