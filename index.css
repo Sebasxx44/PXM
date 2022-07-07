@@ -297,9 +297,15 @@ body{
 }
 
 .titulo-pelicula{
-    font-size: 50px;
-    font-family: sans-serif;
+    font-size: 40px;
+    font-family: 'Roboto Flex', sans-serif;
     color: white;
+}
+
+.duracion{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
 }
 
 .subtitulo-pelicula{
