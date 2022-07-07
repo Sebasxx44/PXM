@@ -741,7 +741,7 @@ body{
 
     .glider-slide img{
         height: 290px;
-        width: 90%;
+        width: 100%;
         margin-left: 0px;
         padding: 0px;
     }
@@ -783,7 +783,7 @@ body{
     .contenido-slider .titulo-pelicula{
         font-family: 'Roboto Flex', sans-serif;
         font-size: 28px;
-        width: 90%;
+        width: 100%;
     }
 
     .subtitle h2{
