@@ -479,6 +479,10 @@ body{
         cursor: pointer;
     }
 
+    .container-2 .title-container-2:hover{
+        color: #aa0000;
+    }
+
     .pelicula_video iframe{
         width: 650px;
         height: 400px;
