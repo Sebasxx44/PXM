@@ -252,7 +252,8 @@ body{
  .container-2 .title-container-2{
     font-size: 13px;
     color: white;
-    font-family: sans-serif;
+    font-family:sans-serif;
+    font-weight: 120;
     margin-top: 10px;
     width: 90%;
     padding: 0 0 0 20px;
