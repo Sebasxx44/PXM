@@ -425,8 +425,7 @@ body{
 
 .pelicula-container:hover .projects__hover-1{
     transform: translateY(0%);
-    height: 240px;
-
+    height: 270px;
 }
 
 
@@ -777,6 +776,11 @@ body{
       display: none;
     }
 
+    .pelicula-container:hover .projects__hover-1{
+        transform: translateY(0%);
+        height: 220px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -842,6 +846,11 @@ body{
         font-family:Arial, Helvetica, sans-serif;
         font-size: 13px;
         padding: 5px;
+    }
+
+    .pelicula-container:hover .projects__hover-1{
+        transform: translateY(0%);
+        height: 270px;
     }
 
 }
