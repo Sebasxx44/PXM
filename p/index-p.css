@@ -224,6 +224,14 @@ body{
     padding: 10px;
 }
 
+.subtitle-1{
+    margin-top: 90px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
 .subtitle h2{
     font-size: 18px;
     font-family: sans-serif;
@@ -823,9 +831,8 @@ body{
     }
 
     .boton-salto{
-        margin-top: 5px;
         margin-bottom: 5px;
-        margin-left: 140px;
+        margin-left: 130px;
     }
 
 }
@@ -884,7 +891,6 @@ body{
 
     
     .boton-salto{
-        margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 120px;
     }
@@ -953,7 +959,6 @@ body{
 
     
     .boton-salto{
-        margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 90px;
     }
