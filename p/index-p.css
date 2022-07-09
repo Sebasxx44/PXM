@@ -724,7 +724,7 @@ body{
     }
 
     .nav-1-p-peliculas{
-        height: 750px;
+        height: 800px;
       
     }
 
@@ -752,7 +752,7 @@ body{
 
     .cartaz .descripcion-peli{
         color: #fff;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Roboto Flex', sans-serif;
         padding: 20px 0px 0px 0px;
     }
