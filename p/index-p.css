@@ -158,23 +158,25 @@ body{
 
 .nav-1-p-peliculas{
     width: 100%;
-    height: 700px;
+    height: 600px;
     background: linear-gradient(rgba(0, 0, 0,.40) 0%, rgba(0, 0, 0, .40) 100% );
     background-position: center center;
     display: flex;
     align-items: flex-end;
+    text-align: start;
+    justify-content: space-between;
     
 }
 
 .nav-1-p-peliculas .cartaz{
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     width: auto;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 40px;
 }
 
 .cartaz img{
-    height: 280px;
+    height: 250px;
     display: block;
     border-radius: 6px;
 }
@@ -186,32 +188,36 @@ body{
     padding: 20px 0px 0px 0px;
 }
 
+.nav-1-p-peliculas i{
+    color: #0685da;
+}
+
 .cartaz .hora-pelicula{
-    font-size: 12px;
+    font-size: 16px;
     color: #fff;
     font-family: sans-serif;
     padding: 10px 0px 4px 0px;
 }
 
 .cartaz .generos{
-    font-size: 12px;
+    font-size: 16px;
     color: #fff;
     font-family: sans-serif;
-    padding: 2px;
+    padding: 5px 0px 4px 0px;
     
 }
 
 .cartaz .actores{
-    font-size: 12px;
-    color: white;
+    font-size: 16px;
+    color: rgb(172, 170, 170);
     font-family: sans-serif;
-    padding: 2px;
+    padding: 5px 0px 4px 0px;
 }
 
 .cartaz .descripcion-peli{
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Roboto Flex', sans-serif;
+    color: rgb(187, 184, 184);
+    font-size: 18px;
+    font-family:sans-serif;
     padding: 20px 0px 0px 0px;
 }
 
@@ -620,7 +626,7 @@ body{
 
 
     .nav-1-p-peliculas .cartaz{
-        margin-bottom: 140px;
+        margin-bottom: 50px;
         width: auto;
         margin-left: 20px;
         margin-right: 20px;
@@ -631,8 +637,16 @@ body{
     }
 
     .cartaz img{
-        height: 250px;
+        height: 230px;
         border-radius: 2px;
+    }
+
+    .cartaz .descripcion-peli{
+        font-size: 15px;
+    }
+
+    .cartaz .actores{
+        font-size: 15px;
     }
    
 
@@ -723,22 +737,30 @@ body{
         font-size: 30px;
     }
 
-    .nav-1-p-peliculas{
-        height: 750px;
-      
-    }
-
-    .cartaz img{
-        height: 260px;
-        border-radius: 2px;
-    }
-
     .nav-1-p-peliculas .cartaz{
-        margin-bottom: 130px;
+        margin-bottom: 50px;
         width: auto;
         margin-left: 20px;
     }
     
+    .cartaz .descripcion-peli{
+        color: rgb(187, 184, 184);
+        font-size: 14px;
+    }
+
+    .cartaz .hora-pelicula{
+        font-size: 14px;
+    }
+    
+    .cartaz .generos{
+        font-size: 14px;
+        
+    }
+
+    .cartaz .titulo-pelicula-todas{
+        font-size: 20px;
+    }
+
     .logo-footer img{
         width: 200px;
         padding: 20px;
@@ -750,12 +772,6 @@ body{
         margin-left: 40px;
     }
 
-    .cartaz .descripcion-peli{
-        color: #fff;
-        font-size: 12px;
-        font-family: 'Roboto Flex', sans-serif;
-        padding: 20px 0px 0px 0px;
-    }
 
     .boton-salto{
         margin-top: 5px;
@@ -875,18 +891,13 @@ body{
     }
 
     .nav-1-p-peliculas{
-        height: 780px;
+        height: 650px;
       
     }
 
     .cartaz img{
-        height: 220px;
+        height: 200px;
         border-radius: 2px;
-    }
-
-    .cartaz .descripcion-peli{
-
-        font-size: 14px;
     }
 
     
@@ -902,19 +913,6 @@ body{
 
     .logo{
         width: 140px;
-    }
-
-    .nav-1-p-peliculas{
-        height: 800px;
-    }
-
-    .cartaz .titulo-pelicula-todas{
-        font-size: 20px;
-    }
-
-    .cartaz img{
-        height: 220px;
-        border-radius: 2px;
     }
 
     .hover-container-3 {

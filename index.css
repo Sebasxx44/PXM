@@ -724,6 +724,13 @@ body{
         padding: 0 20px;
         gap: 30px;
     }
+
+
+    .glider-slide img{
+        height: 210px;
+        width: 95%;
+    }
+
 }
 
 @media screen and (max-width: 730px){
@@ -811,8 +818,8 @@ body{
     }
 
     .container-2 .title-container-2{
-        font-family: 'Roboto Flex', sans-serif;
-        font-size: 13px;
+        font-family: sans-serif;
+        font-size: 15px;
        
     }
 
@@ -822,7 +829,7 @@ body{
 
     .glider-slide img{
         height: 210px;
-        width: 90%;
+        width: 95%;
     }
 
 }
@@ -859,7 +866,7 @@ body{
 
     .glider-slide img{
         height: 210px;
-        width: 90%;
+        border-radius: 4px;
     }
 }
 
@@ -875,7 +882,6 @@ body{
 
     .glider-slide img{
         height: 210px;
-        width: 90%;
         margin-left: 0px;
         padding: 0px;
     }
@@ -939,7 +945,6 @@ body{
 
     .glider-slide img{
         height: 210px;
-        width: 90%;
         border-radius: 4px;
     }
 
@@ -1013,13 +1018,6 @@ body{
         grid-auto-rows: 320px;
         padding: 0 15px;
         gap: 20px;
-    }
-
-    .glider-slide img{
-        height: 270px;
-        width: 100%;
-        margin-left: 0px;
-        padding: 5px;
     }
 
     
