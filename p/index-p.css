@@ -339,15 +339,17 @@ body{
 }
 
 .contenido_texto_footer h3{
-    color: rgb(138, 137, 137);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    color: rgb(173, 170, 170);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
     margin-top: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
 .footer-container .footer-sm a{
-    color: white;
+    color: rgb(173, 175, 177);
     font-size: 30px;
     padding: 10px;
 }
