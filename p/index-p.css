@@ -424,10 +424,22 @@ body{
     .container-2{
         display: grid;
         grid-template-columns: repeat(6,1fr);
-        grid-auto-rows: 270px;
+        grid-auto-rows: 280px;
         padding: 0 20px;
-        gap: 30px;
-        margin-bottom: 50px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pelicula-img{
+        height: 220px;
+    }
+
+    .pelicula-container{
+        height: 220px;
+    }
+    
+    .pelicula-container:hover .projects__hover-1{
+        height: 220px;
     }
 
     .container-2 .title-container-2{
@@ -476,10 +488,24 @@ body{
     }
 
     .container-2{
-        grid-template-columns: repeat(5,1fr);
-        grid-auto-rows: 270px;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 280px;
         padding: 0 20px;
-        gap: 30px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pelicula-img{
+        height: 200px;
+    }
+
+    .pelicula-container{
+        height: 200px;
+    }
+    
+    .pelicula-container:hover .projects__hover-1{
+        height: 200px;
     }
 
     .container-2 .title-container-2{
@@ -523,10 +549,23 @@ body{
     
     .container-2{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-auto-rows: 270px;
+        grid-template-columns: repeat(5,1fr);
+        grid-auto-rows: 280px;
         padding: 0 20px;
-        gap: 30px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pelicula-img{
+        height: 200px;
+    }
+
+    .pelicula-container{
+        height: 200px;
+    }
+    
+    .pelicula-container:hover .projects__hover-1{
+        height: 200px;
     }
 
     .pelicula_video iframe{
@@ -712,12 +751,25 @@ body{
 
     .container-2{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-auto-rows: 300px;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 280px;
         padding: 0 20px;
-        gap: 30px;
-        margin-bottom: 40px;
+        gap: 10px;
+        margin-bottom: 10px;
     }
+
+    .pelicula-img{
+        height: 200px;
+    }
+
+    .pelicula-container{
+        height: 200px;
+    }
+    
+    .pelicula-container:hover .projects__hover-1{
+        height: 200px;
+    }
+
 
     .pelicula_video iframe{
         width: 400px;
@@ -781,6 +833,19 @@ body{
         margin-left: 170px;
     }
 
+    .container-2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 280px;
+        padding: 0 20px;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .pelicula-img{
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -816,23 +881,24 @@ body{
 
 
     .container-2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 320px;
-    padding: 0 15px;
-    gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 260px;
+        padding: 0 20px;
+        gap: 10px;
+        margin-bottom: 40px;
     }
 
     .pelicula-img{
-        border-radius: 4px;
+        height: 180px;
     }
 
     .pelicula-container{
-    height: 260px;
+    height: 180px;
     }
 
     .pelicula-container:hover .projects__hover-1{
-     height: 260px;
+     height: 180px;
     }
 
     .contenido_a_footer a{
@@ -879,17 +945,23 @@ body{
 
     .container-2{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 300px;
-        padding: 0 15px;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 260px;
+        padding: 0 10px;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .pelicula-img{
+        height: 170px;
     }
     
     .pelicula-container{
-        height: 230px;
+        height: 170px;
     }
     
     .pelicula-container:hover .projects__hover-1{
-         height: 230px;
+         height: 170px;
     }
 
     .nav-1-p-peliculas{

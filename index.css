@@ -312,11 +312,12 @@ body{
 /* CAROUSEL */
 
 .carousel{
-    margin: 30px 60px 20px 60px;
+    margin: 30px 100px 20px 100px;
 }
 
 .carousel__contenedor{
     position: relative;
+    width: 100%;
 }
 
 .carousel__lista .carousel__elemento{
@@ -349,7 +350,7 @@ body{
 }
 
 .carousel__anterior{
-    left: -30px;
+    left: -40px;
 }
 
 .carousel__siguiente{
@@ -358,6 +359,7 @@ body{
 
 .carousel__elemento img{
     height: 250px;
+    width: 90%;
 }
 
 .carousel__elemento p{
@@ -843,6 +845,10 @@ body{
 }
 
 @media screen and (max-width: 600px){
+
+    .carousel__anterior{
+        left: -25px;
+    }
 
     .titulo-pelicula{
         font-size: 30px;
