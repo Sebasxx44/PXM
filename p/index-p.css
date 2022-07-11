@@ -245,6 +245,7 @@ body{
 }
 
 
+
 /* PELICULAS Y SERIES*/
 
 
@@ -427,7 +428,7 @@ body{
     height: 450px;
     margin-left: 250px;
     margin-top: 50px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(4, 187, 219);
 }
 
 .boton-salto{
@@ -529,7 +530,6 @@ body{
         height: 400px;
         margin-left: 130px;
         margin-top: 50px;
-        border:1px solid #fdfcfc;
     
     }
 
@@ -895,7 +895,7 @@ body{
     }
 
     .nav-1-p-peliculas .cartaz{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         width: auto;
         margin-left: 20px;
     }
