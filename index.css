@@ -895,6 +895,12 @@ body{
         height: 190px;
        }
 
+    .projects__hover-1 .hover-container-2{
+        font-size: 40px;
+        color:#ca0000;
+        margin-left: 15px;
+    }
+
     .glider-slide img{
         height: 210px;
         border-radius: 4px;

@@ -869,6 +869,10 @@ body{
         height: 80px;
     }
 
+    .container-serie .title-ep{
+        font-size: 15px;
+    }
+
 
     .pelicula_video iframe{
         width: 400px;
