@@ -515,7 +515,7 @@ body{
 }
 
 .container-2 .title-container-2:hover{
-    color: #b60b0b;
+    color:#0685da;
 }
 
 .pelicula-img{
@@ -542,8 +542,8 @@ body{
 }
 
  .projects__hover-1 .hover-container-2{
-    font-size: 60px;
-    color:#ca0000;
+    font-size: 50px;
+    color:#0685da;
 }
 
 .pelicula-container:hover .projects__hover-1{
