@@ -230,6 +230,12 @@ body{
     padding: 10px;
 }
 
+.subtitle i{
+    color: #0685da;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
 .subtitle-1{
     margin-top: 50px;
     color:#837d7d;
@@ -270,7 +276,7 @@ body{
     color: white;
     font-family:sans-serif;
     font-weight: 120;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 90%;
     padding: 0 0 0 20px;
     cursor: pointer;
@@ -583,7 +589,7 @@ body{
         font-size: 14px;
         color: white;
         font-family: sans-serif;
-        margin-top: 10px;
+        margin-top: 5px;
         width: 100%;
         padding: 0 10px 0px 10px;
         cursor: pointer;
